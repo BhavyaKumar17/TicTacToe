@@ -15,7 +15,8 @@
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/tictactoe-icon-1024.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bhavya1993.TicTacToe"
     },
     "web": {
       "output": "static",

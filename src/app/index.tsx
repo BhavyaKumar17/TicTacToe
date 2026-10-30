@@ -1,8 +1,4 @@
-import * as Device from "expo-device";
-import { Platform, StyleSheet, View, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
-import { BottomTabInset, MaxContentWidth, Spacing } from "@/constants/theme";
+import { StyleSheet, View } from "react-native";
 import XOBoard from "@/components/XOBoard";
 
 export default function HomeScreen() {
