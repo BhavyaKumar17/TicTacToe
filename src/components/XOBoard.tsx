@@ -23,7 +23,6 @@ const WINNING_COMBINATIONS = [
 
 const checkWinner = (board: Board): Player | null => {
   for (const [a, b, c] of WINNING_COMBINATIONS) {
-    console.log(a, b, c);
     if (board[a] && board[a] === board[b] && board[a] === board[c]) {
       return board[a];
     }
@@ -46,7 +45,6 @@ const XOBoard = () => {
 
     const winResult = checkWinner(newBoard);
     if (winResult) {
-      console.log("winner", winResult);
       setWinner(winResult);
       setCurrentPlayer(null);
     } else {
